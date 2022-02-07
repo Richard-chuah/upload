@@ -60,7 +60,7 @@ return [
 						
             'username' => 'sftpuser4',
 						
-            'password' => '',
+            'password' => 'P@ssw0rd',
 
             // Optional FTP Settings...
             // 'port'     => 22,
