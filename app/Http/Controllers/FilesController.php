@@ -49,7 +49,7 @@ class FilesController extends Controller
         $size = $request->file->getSize();
         $file = $request->file;
         //$request->file->move(public_path('file'), $fileName);
-        Storage::disk('ftp')->put($time, $file);
+        Storage::disk('ftp')->put("files/".$fileName, $file);
         
         /* File::create([
             'user_id' => 1,
